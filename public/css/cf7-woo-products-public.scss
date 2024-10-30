@@ -1,0 +1,17 @@
+.wpcf7-form-control-wrap .select2 {
+  margin-bottom: 1rem;
+  min-width: 25ch;
+}
+
+.select2-container--open {
+  border-top: 1px solid #aaa;;
+}
+#chooseCategory {
+  position: relative;
+  #spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+  }
+}
